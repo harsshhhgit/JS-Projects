@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator using eval Function</title>
+    <link rel="shortcut icon" href="../favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+
+
+        <div class="calculator">
+
+            <input type='text' id='result' class='calculator__display screen' style="text-align: right; width: 100%;">
+
+            <div class="calculator__keys" id="calcKeys">
+                <input type="button" value="+" class="key--operator" data-action="add" onClick="display('+')" accesskey="+"></input>
+                <input type="button" value="-" class="key--operator" data-action="subtract" onClick="display('-')" accesskey="-"></input>
+                <input type="button" value="*" class="key--operator" data-action="multiply" onClick="display('*')" accesskey="*"></input>
+                <input type="button" value="/" class="key--operator" data-action="divide" onClick="display('/')" accesskey="/"></input>
+                <input type="button" value="7" onClick="display('7')" accesskey="7"></input>
+                <input type="button" value="8" onClick="display('8')" accesskey="8"></input>
+                <input type="button" value="9" onClick="display('9')" accesskey="9"></input>
+                <input type="button" value="4" onClick="display('4')" accesskey="4"></input>
+                <input type="button" value="5" onClick="display('5')" accesskey="5"></input>
+                <input type="button" value="6" onClick="display('6')" accesskey="6"></input>
+                <input type="button" value="1" onClick="display('1')" accesskey="1"></input>
+                <input type="button" value="2" onClick="display('2')" accesskey="2"></input>
+                <input type="button" value="3" onClick="display('3')" accesskey="3"></input>
+                <input type="button" value="0" onClick="display('0')" accesskey="0"></input>
+                <input type="button" value="." data-action="decimal" onClick="display('.')" accesskey="."></input>
+                <input type="button" value='C' data-action="clear" onclick="clearScreen()" accesskey="c"></input>
+                <input type="button" value="=" class="key--equal" onclick="solve()" data-action="calculate" id="equalsTo"></input>
+            </div>
+        </div>
+    </div>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
