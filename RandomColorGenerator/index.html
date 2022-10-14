@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dosis:wght@200;400&family=Great+Vibes&family=Hind&family=Jost&family=Kaushan+Script&family=La+Belle+Aurore&family=Lobster&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap");
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+
+        body {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: #00022e;
+        }
+
+        .box {
+            padding: 2rem;
+            border-radius: 20px;
+            background-color: rgba(255, 255, 255, 0.75);
+            backdrop-filter: blur(5px);
+        }
+
+        .head {
+            /* margin-bottom: 0.2rem; */
+        }
+        .color-code{
+            margin-bottom: .4rem;
+        }
+
+        .box .overlay_btn {
+            font-size: 1.2rem;
+            font-weight: 500;
+            padding: 0.8rem;
+            border: solid #010324 1px;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+            background: none;
+            cursor: pointer;
+        }
+
+        .overlay_btn:hover {
+            transform: scale(1.05);
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="head">Random Color Generator</h1>
+        <h3 class="color-code" id="color-code">#FFFFFF</h3>
+        <button class="overlay_btn btn" id="btn" onclick="randomColor()">Generate<span
+                class="pallete">🎨</span></button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
