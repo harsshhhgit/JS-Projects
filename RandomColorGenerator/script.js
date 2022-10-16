@@ -10,3 +10,10 @@ function randomColor() {
   document.getElementById("color-code").innerHTML = color;
   document.body.style.backgroundColor = color;
 }
+
+var copyBtn = document.getElementById('copy-btn')
+function copyColor() {
+  var colorCode = document.getElementById('color-code');
+  navigator.clipboard.writeText(colorCode.innerText);
+  console.log(colorCode.innerText)
+}

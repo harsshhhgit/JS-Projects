@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Dosis:wght@200;400&family=Great+Vibes&family=Hind&family=Jost&family=Kaushan+Script&family=La+Belle+Aurore&family=Lobster&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Shadows+Into+Light&family=Ubuntu:wght@300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #00022e;
+}
+.box {
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head {
+    margin-bottom: 0.5rem;
+}
+.box .overlay_btn {
+    font-size: 18px;
+    /* font-weight: 500; */
+    padding: 0.8rem;
+    margin-top: .5rem;
+    border-radius: 0.5rem;
+    transition: all 0.3s ease;
+    border: none;
+    background: #5F1EBE;
+    color: #ffffff;
+}
+
+.overlay_btn:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.color-details{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px 0;
+}
+.color-code{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.copy-btn{
+    border: none;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 1.2rem;
+    background-color: #5e1ebe;
+}
+.copy-icon{
+    color: #ffffff;
+    padding: 10px;
+}
+.btn{
+    cursor: pointer;
+}
