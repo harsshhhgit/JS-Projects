@@ -17,3 +17,5 @@ function copyColor() {
   navigator.clipboard.writeText(colorCode.innerText);
   console.log(colorCode.innerText)
 }
+
+window.onload=randomColor;
