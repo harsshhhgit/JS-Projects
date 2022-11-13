@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Cedarville+Cursive&family=Cousine&family=Dosis:wght@200;400&family=Great+Vibes&family=Handlee&family=Hind&family=Homemade+Apple&family=Indie+Flower&family=Jost&family=Kalam:wght@300;400&family=Kaushan+Script&family=Kristi&family=La+Belle+Aurore&family=Lobster&family=Marck+Script&family=Nothing+You+Could+Do&family=Nunito:wght@400;500;600;700;800&family=Pacifico&family=Pangolin&family=Patrick+Hand&family=Patrick+Hand+SC&family=Poppins:wght@200;300;400;500;600&family=Shadows+Into+Light&family=Source+Code+Pro:wght@300;400&family=Swanky+and+Moo+Moo&family=Ubuntu:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: #5F1EBE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container{
+    border-radius: 5px;
+    padding: 10px;
+    background: #fff;
+}
+.wrapper{
+    margin: 1rem;
+}
+.search-wrapper{
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search-wrapper i{
+    font-size: 1.2rem;
+}
+.search-wrapper .search-bar{
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+    /* letter-spacing: 1px; */
+}
+.search-wrapper .search-bar:focus{
+    border: none;
+    outline: none;
+}
+
+.output-data{
+    display: flex;
+    align-items: center;
+}
+.output-data .user-avatar{
+    width: 200px;
+    height: 200px;
+    margin-right: 1rem;
+}
+.output-data .user-avatar img{
+    width: 100%;
+    border-radius: 50%;
+}
+.user-data i{
+    font-size: 1.2rem;
+    color: #5F1EBE;
+}
+
+/* .user-data #following, 
+.user-data #followers{
+    font-family: 'Orbitron', sans-serif;
+} */
