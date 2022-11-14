@@ -20,10 +20,11 @@ const apiUrl = 'https://api.github.com/users/';
 // })
 
 function getUser(username) {
-    fetch(apiUrl + username)
-        .then((resp) => resp.json())
-        .then((data) => {
-            userData.innerHTML = `<div class="user-avatar">
+    if (username != "") {
+        fetch(apiUrl + username)
+            .then((resp) => resp.json())
+            .then((data) => {
+                userData.innerHTML = `<div class="user-avatar">
     <img src="${data.avatar_url}" alt="" class="avatar" id="avatar">
 </div>
 <div class="user-data" id="user-data">
@@ -35,9 +36,13 @@ function getUser(username) {
     <span>Following: <span id="following">${data.following}</span></span><br>
     <span>Follower: <span id="followers">${data.followers}</span></span><br>
 </div>`
-        })
-        .catch(
-            userData.innerHTML = `<div class="user-avatar">
+            })
+            .catch(
+                userData.innerHTML = `<h2>User doesn't exist</h2>`
+            )
+    }
+    if (username === "") {
+        userData.innerHTML = `<div class="user-avatar">
         <img src="./assets/avatar.png" alt="" class="avatar" id="avatar">
     </div>
     <div class="user-data" id="user-data">
@@ -49,7 +54,8 @@ function getUser(username) {
         <span>Following: <span id="following">00</span></span><br>
         <span>Follower: <span id="followers">00</span></span><br>
     </div>`
-        )
+    }
+
 }
 
 var inpWord = document.getElementById("search-bar")
