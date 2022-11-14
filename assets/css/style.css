@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Cousine&family=Dosis:wght@200;400&family=Great+Vibes&family=Hind&family=Jost&family=Kaushan+Script&family=La+Belle+Aurore&family=Lobster&family=Nunito:wght@400;500;600;700;800&family=Pacifico&family=Poppins:wght@200;300;400;500;600&family=Shadows+Into+Light&family=Source+Code+Pro:wght@300;400&family=Ubuntu:wght@300&display=swap');
+
+:root {
+    /* --background-color: #161616; */
+    --background-color: #010409;
+    --border-color: #7a828e;
+    --button-color: #272b33;
+    --white-color: #ffffff;
+    --black-color: #000000;
+    --black-shade: #0a0c10;
+    --text-color: #f0f3f6;
+    --base-color: #5F1EBE;
+    --purple: #D0009A;
+    --shady-purple: #FF2970;
+    --orange: #FF7B4E;
+    --ochre-yellow: #FFBD47;
+    --lemon-yellow: #F9F871;
+    --dark-blue: #005CEE;
+    --light-blue: #0080FF;
+    --lighter-blue: #009BF3;
+    --lightest-blue: #00B2D1;
+    --turquoise: #00C5A6;
+    --cyan: #00C2AB;
+    --dark-cyan: #008B77;
+    --social-icon: #4AFCE2;
+    --social-bg: #008B77;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var(--background-color);
+    font-family: 'Poppins', sans-serif;
+    width: 90vw;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.header h1 {
+    display: inline;
+    font-size: 12vw;
+    font-family: Nunito, "Helvetica Neue", sans-serif;
+    ;
+}
+
+.header h1 {
+    /* color: #ff9800; */
+    color: var(--lighter-blue);
+}
+
+.header h1 .z-layer:not(:first-child) {
+    /* color: #bf7200 */
+    color: var(--dark-blue);
+}
+
+.header h2 {
+    font-size: 1.25em;
+    margin: 1em 0
+}
+
+.header .z-text {
+    -webkit-transform: rotateX(20deg);
+    transform: rotateX(20deg)
+}
+
+main .about {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    margin: 20px 0;
+    text-align: center;
+}
+
+main .cards-group {
+    margin: 4rem 0;
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: flex-start;
+}
+
+.cards {
+    padding: 20px;
+    /* width: 30vmax; */
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    background-color: var(--black-shade);
+    border-radius: 5px;
+}
+
+.cards .card-body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card-body .card-title,
+.card-body .card-text {
+    margin-bottom: 10px;
+}
+
+
+.card-body a {
+    text-decoration: none;
+    background-color: var(--button-color);
+    color: var(--white-color);
+    border: 1px solid var(--border-color);
+    padding: 8px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    transition: .3s all ease-in-out;
+}
+
+.card-body a:hover {
+    background-color: transparent;
+    filter: brightness(0) invert(1);
+}
+
+
+@media only screen and (max-width: 420px) {
+    .cards {
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes wobble {
+
+    0%,
+    100% {
+        -webkit-transform: rotate3d(-1, 1, 0, 30deg);
+        transform: rotate3d(-1, 1, 0, 30deg)
+    }
+
+    25% {
+        -webkit-transform: rotate3d(1, 1, 0, 30deg);
+        transform: rotate3d(1, 1, 0, 30deg)
+    }
+
+    50% {
+        -webkit-transform: rotate3d(1, -1, 0, 30deg);
+        transform: rotate3d(1, -1, 0, 30deg)
+    }
+
+    75% {
+        -webkit-transform: rotate3d(-1, -1, 0, 30deg);
+        transform: rotate3d(-1, -1, 0, 30deg)
+    }
+}
+
+@keyframes wobble {
+
+    0%,
+    100% {
+        -webkit-transform: rotate3d(-1, 1, 0, 30deg);
+        transform: rotate3d(-1, 1, 0, 30deg)
+    }
+
+    25% {
+        -webkit-transform: rotate3d(1, 1, 0, 30deg);
+        transform: rotate3d(1, 1, 0, 30deg)
+    }
+
+    50% {
+        -webkit-transform: rotate3d(1, -1, 0, 30deg);
+        transform: rotate3d(1, -1, 0, 30deg)
+    }
+
+    75% {
+        -webkit-transform: rotate3d(-1, -1, 0, 30deg);
+        transform: rotate3d(-1, -1, 0, 30deg)
+    }
+}
+
+.social-links {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links a {
+    margin-right: 3px;
+}
+
+.social-links i {
+    color: var(--text-color);
+    background-color: var(--black-shade);
+    border: 1px solid var(--border-color);
+    font-size: 1.4rem;
+    padding: 8px;
+    border-radius: 8px;
+    transition: all .3s ease-in-out;
+}
+
+.social-links i:hover {
+    background: transparent;
+}
