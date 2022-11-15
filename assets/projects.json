@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Calculator",
+        "description": "Full fledge calculator. With all the functionalities. In Progress⏱.",
+        "link": "./Calculator/index.html"
+    },
+    {
+        "name": "Digital Clock",
+        "description": "This is a Digital Clock🕐.",
+        "link": "./Digital-Clock/index.html"
+    },
+    {
+        "name": "Calculator Eval",
+        "description": "Tiny Calculator using eval method of JavaScript to solve the equations enclosed in it.",
+        "link": "./Calculator-eval-Method/index.html"
+    },
+    {
+        "name": "Eyeball Tracking Movement",
+        "description": "This is a tiny project which will track the mouse movement and the eyes in the page will follow the mouse.",
+        "link": "./Eyeball-Tracking-MouseMovement/index.html"
+    },
+    {
+        "name": "Random Color Generator",
+        "description": "This is a tiny project for generating attractive random colors. To see the demo, click the 'generate' button to generate a new color.",
+        "link": "./Random-Color-Generator/index.html"
+    },
+    {
+        "name": "Random Gradient Generator",
+        "description": "This is a tiny project for generating attractive random Gradients. To see the demo, click the 'generate' button to generate a new gradient.",
+        "link": "./Random-Gradient-Generator/index.html"
+    },
+    {
+        "name": "Password Generator",
+        "description": "This is a tiny project which will create a strong password by clicking on GENERATE PASSWORD.",
+        "link": "./Random-Password-Generator/index.html"
+    },
+    {
+        "name": "GitHub Profile Finder",
+        "description": "A page where you can search GitHub users using there username. The project uses API provided by GitHub itself.",
+        "link": "./GitHub-Profile-Finder/index.html"
+    },
+    {
+        "name": "Geometric Art",
+        "description": "Geometric art generator which was created to just practice javascript.",
+        "link": "./Geometric-Art/index.html"
+    }
+]
