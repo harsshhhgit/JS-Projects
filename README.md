@@ -1,5 +1,5 @@
 # Small JS Projects
-
+![JS-Projects](https://socialify.git.ci/harsh1x4/JS-Projects/image?font=KoHo&language=1&name=1&owner=1&pattern=Charlie%20Brown&theme=Dark)
 ### Deployments
 - [Vercel](https://js-projects-harsh1x4.vercel.app)
 - [GitHub Pages](https://harsh1x4.github.io/JS-Projects/)
