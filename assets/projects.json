@@ -43,5 +43,10 @@
         "name": "Geometric Art",
         "description": "Geometric art generator which was created to just practice javascript.",
         "link": "./Geometric-Art/index.html"
+    },
+    {
+        "name": "Weather App",
+        "description": "Weather app where you can search for weather of your city. API used in this app is provided by openweathermap.org.",
+        "link": "./Weather/index.html"
     }
 ]
