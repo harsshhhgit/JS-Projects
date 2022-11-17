@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    <link rel="shortcut icon" href="../JS.png" type="image/x-icon">
+</head>
+<body>
+    <div class="card">
+        <div class="search-wrapper">
+            <input type="text" name="" id="search-bar" class="search-bar">
+            <button id="search-btn" class="search-btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div class="data" id="data">
+            <h2 class="city" id="city">Weather in Dhanbad</h2>
+            <h1 class="temp" id="temp">24.99°C</h1>
+            <div class="report">
+                <img src="https://openweathermap.org/img/wn/50d.png" class="weather-icon" alt="weather-icon">
+                <div class="description">Sunny</div>
+            </div>
+            <div class="humidity">Humidity: 44%</div>
+            <div class="wind">Wind Speed: 4.12km/h</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
