@@ -12,3 +12,4 @@
 - [GitHub Profile Finder](https://github.com/harsh1x4/JS-Projects/tree/master/GitHub-Profile-Finder) - This is created using HTML, CSS and JS. Using GitHub API.
 - [Weather APP](https://github.com/harsh1x4/JS-Projects/tree/master/Weather) -
 - [Geometric Art Generator](https://github.com/harsh1x4/JS-Projects/tree/master/Geometric-Art) -
+- [Password Generator](https://github.com/harsh1x4/JS-Projects/tree/master/Random-Password-Generator) - 
