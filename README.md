@@ -8,9 +8,9 @@
 - [Calculator-eval-Method](https://github.com/harsh1x4/Small-JS-Projects/tree/master/Calculator-eval-Method) - Made using HTML, CSS, and JS. I have used the eval method of JavaScript to solve the equations enclosed in it.
 - [Digital Clock](https://github.com/harsh1x4/JS-Projects/tree/master/Digital-Clock) - Just a Digital Clock.
 - [Eyeball Tracker](https://github.com/harsh1x4/JS-Projects/tree/master/Eyeball-Tracking-MouseMovement) - 
+- [Geometric Art Generator](https://github.com/harsh1x4/JS-Projects/tree/master/Geometric-Art) -
 - [Random Color Generator](https://github.com/harsh1x4/Small-JS-Projects/tree/master/RandomColorGenerator) - Made using HTML, CSS, and JS. It will generate a random colour and give you the HEX code.
 - [Random Gradient Generator](https://github.com/harsh1x4/JS-Projects/tree/master/Random-Gradient-Generator) - Made using HTML, CSS, and JS. It will generate a random gradient.
 - [GitHub Profile Finder](https://github.com/harsh1x4/JS-Projects/tree/master/GitHub-Profile-Finder) - This is created using HTML, CSS and JS. Using GitHub API.
 - [Weather APP](https://github.com/harsh1x4/JS-Projects/tree/master/Weather) -
-- [Geometric Art Generator](https://github.com/harsh1x4/JS-Projects/tree/master/Geometric-Art) -
 - [Password Generator](https://github.com/harsh1x4/JS-Projects/tree/master/Random-Password-Generator) - 
